@@ -1,0 +1,8 @@
+*.log
+node_modules
+typings
+.env
+.idea
+.DS_Store
+*.log
+dist

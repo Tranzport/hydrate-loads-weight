@@ -1,0 +1,17 @@
+{
+  "name": "hydrate-loads-weight",
+  "version": "1.0.0",
+  "description": "Update total weight for existing loads",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.3.0"
+  },
+  "dependencies": {
+    "pg": "8.4.1"
+  }
+}
