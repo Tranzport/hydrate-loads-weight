@@ -18,7 +18,7 @@ const getLoadsIds = async () => {
 }
 
 const updateLoadsWeight = async (id) => {
-    const query = `SELECT * FROM tz_load.isp_update_loads_weight(${id});`;
+    const query = `SELECT * FROM tz_load.isp_update_total_weight(${id});`;
     return await pool.query(query);
 }
 
